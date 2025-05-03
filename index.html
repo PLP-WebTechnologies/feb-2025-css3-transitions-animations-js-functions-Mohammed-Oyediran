@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Preferences</h1>
+        
+        <div class="preference-form">
+            <label for="theme">Select Theme:</label>
+            <select id="theme">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="blue">Blue</option>
+            </select>
+            
+            <label for="animation">Select Animation:</label>
+            <select id="animation">
+                <option value="bounce">Bounce</option>
+                <option value="spin">Spin</option>
+                <option value="pulse">Pulse</option>
+            </select>
+            
+            <button id="save-btn" class="animated-button">Save Preferences</button>
+            <button id="animate-btn" class="animated-button">Trigger Animation</button>
+        </div>
+        
+        <div id="animated-element" class="animation-box">
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
